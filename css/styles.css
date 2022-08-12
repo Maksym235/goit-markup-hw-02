@@ -1,0 +1,250 @@
+:root{
+--main-fonrt: font-family: 'Roboto', sans-serif;
+--secondary-font: font-family: 'Raleway', sans-serif;
+--primry-font-weight: 700;
+--secondary-font-weight: 400;
+--main-color: #212121;
+--secondary-color: #757575;
+--accent-color: #2196F3;
+--other-color: #FFFFFF;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+img {
+  display: block;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#212121;
+    background-color: var(--other-color);
+}
+
+.logo{
+    color: #000000;
+font-weight: var(--primry-font-weight);
+font-size: 26px;
+line-height: 1.19;
+}
+
+.logo-web{
+    color: var(--accent-color)
+}
+
+.logo:focus{
+
+}
+
+.menu-link{
+color: var(--main-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color:var(--accent-color);
+}
+
+.header-contacts-email,
+.header-contacts-number{
+    color:var(--secondary-color);
+}
+
+.header-contacts-email:hover,
+.header-contacts-email:focus{
+    color: var(--accent-color);
+}
+
+.header-contacts-number:hover,
+.header-contacts-number:focus{
+color:var(--accent-color);
+}
+
+.baner{
+    background-color: #2F303A;
+    color: var(--other-color);
+}
+
+.baner-text{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+}
+
+.baner-modal-button{
+    background-color: var(--accent-color);
+    color: var(--other-color);
+    cursor: pointer;
+    font: var(--main-fonrt);
+}
+
+.baner-modal-button:hover,
+.baner-modal-button:focus{
+background-color: #188CE8;
+color: var(--other-color);
+}
+
+.benefits-caption{
+font-style: normal;
+font-weight: var(--primry-font-weight);
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.benefits-list{
+font-weight: var(--primry-font-weight);
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.benefits-text{
+color: var(--secondary-color);
+font-weight: var(--secondary-font-weight);
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.about-caption{
+font-weight: var(--primry-font-weight);
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.our-team{
+    background-color:#F5F4FA;
+}
+
+.our-team-caption{
+font-weight: var(--primry-font-weight);
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.workers-item{
+    background-color: var(--other-color);
+}
+
+.workers-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.workers-position{
+    color: var(--secondary-color);
+font-weight: var(--secondary-font-weight);
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.logo-footer{
+    color: var(--other-color);
+    font-family: var(--secondary-font);
+font-weight: var(--primry-font-weight);
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.logo-footer:hover,
+.logo-footer:focus{
+
+}
+
+.address-list{
+    font-style: normal;
+font-weight: var(--secondary-font-weight);
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.address-map{
+    color: var(--other-color);
+font-weight: var(--secondary-font-weight);
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.footer-contacts-email,
+.footer-contacts-number{
+    color: rgba(255, 255, 255, 0.6);
+font-weight: var(--secondary-font-weight);
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.footer-contacts-email:hover,
+.footer-contacts-email:focus{
+    color:var(--accent-color);
+}
+
+.footer-contacts-number:hover,
+.footer-contacts-number:focus{
+    color:var(--accent-color);
+}
+
+.services-nav-button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.services-nav-button:hover,
+.services-nav-button:focus{
+    background-color: var(--accent-color);
+    color: var(--other-color);
+}
+
+.services-title{
+    color: var(--main-color);
+    font-weight: var(--primry-font-weight);
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.services-sectoin{
+    color: var(--secondary-color);
+font-weight: var(--secondary-font-weight);
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+}
+
