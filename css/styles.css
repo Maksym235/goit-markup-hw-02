@@ -1,12 +1,16 @@
 :root {
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  --main-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
   --primry-font-weight: 700;
   --secondary-font-weight: 400;
+  --primary-font-size: 14px;
   --main-color: #212121;
   --secondary-color: #757575;
   --accent-color: #2196f3;
   --other-color: #ffffff;
+  --logo-color: #000000;
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
 }
 
 .link {
@@ -21,17 +25,21 @@ img {
 }
 
 body {
-  font-family: var(--main-font);
-  font-family: var(--primry-font-weight);
+  font-family: 'Roboto', sans-serif;
+  font-size: var(--primary-font-size);
+  letter-spacing: 0.3em;
   color: var(--main-color);
   background-color: var(--other-color);
 }
 
 .logo {
-  color: #000000;
-  font-weight: var(--primry-font-weight);
-  font-size: 26px;
-  line-height: 1.19;
+  color: var(--logo-color);
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -43,13 +51,14 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.2em;
 }
 
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
 }
+
 
 .header-contacts-email,
 .header-contacts-number {
@@ -67,7 +76,7 @@ body {
 }
 
 .baner {
-  background-color: #2f303a;
+  background-color: var(--primary-background-color);
   color: var(--other-color);
 }
 
@@ -77,7 +86,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+
 }
 
 .baner-modal-button {
@@ -85,6 +94,13 @@ body {
   background-color: var(--accent-color);
   color: var(--other-color);
   cursor: pointer;
+  font-weight: var(--primry-font-weight);
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .baner-modal-button:hover,
@@ -107,7 +123,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+
 }
 
 .benefits-text {
@@ -127,7 +143,7 @@ body {
 }
 
 .our-team {
-  background-color: #f5f4fa;
+  background-color:var(--secondary-background-color) ;
 }
 
 .our-team-caption {
@@ -220,6 +236,19 @@ body {
 .services-nav-button:focus {
   background-color: var(--accent-color);
   color: var(--other-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .services-title {
