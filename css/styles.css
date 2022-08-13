@@ -27,7 +27,7 @@ img {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: var(--primary-font-size);
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: var(--main-color);
   background-color: var(--other-color);
 }
@@ -46,12 +46,18 @@ letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
-.menu-link {
+
+
+.menu-list .link {
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.2em;
+}
+
+.menu-list .link.current{
+  color: var(--accent-color);
 }
 
 .menu-link:hover,
