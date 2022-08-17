@@ -64,7 +64,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 
 .menu-list .link.current {
@@ -85,6 +85,7 @@ body {
 .header-contacts-email,
 .header-contacts-number {
   color: var(--secondary-color);
+  font-weight: 500;
 }
 
 .header-contacts-email:hover,
@@ -146,6 +147,7 @@ body {
 
 .benefits-subtitle {
   font-weight: var(--primry-font-weight);
+  font-size: 14px;
   line-height: 1.14em;
   text-transform: uppercase;
 }
@@ -199,7 +201,7 @@ body {
 
 .logo-footer {
   color: var(--other-color);
-  font-family: var(--secondary-font);
+  font-family: var(--secondary-font-family);
   font-weight: var(--primry-font-weight);
   font-size: 26px;
   line-height: 1.19;
@@ -242,6 +244,7 @@ body {
 }
 
 .services-nav-button {
+  font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
